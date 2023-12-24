@@ -1,19 +1,19 @@
 ### Аналіз функціональних та нефункціональних вимог
 |<p style="text-align: center;">Вимоги<br>(FR, NFR)|<p style="text-align: center;">Загроза<br>порушення<br>конфіденційності|<p style="text-align: center;">Загроза<br>порушення<br>цілісності|<p style="text-align: center;">Загроза<br>порушення<br>доступності|
 |---|---|---|---|
-|FR 1.1 Реєстрація клієнта здійснюється через панель сайту призначену дляклієнтів.|<p style="text-align: center;">-|<p style="text-align: center;">+|<p style="text-align: center;">+|
-|FR 1.2 Потрібен валідний email, номер телефону та обрані користувачем ім`я і пароль.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
-|FR 1.3 Користувач не може ввести пароль менше 6 символів.|<p style="text-align: center;">-|<p style="text-align: center;">+|<p style="text-align: center;">+|
-|FR 1.5 Всі поля не повинні бути порожніми.|<p style="text-align: center;">-|<p style="text-align: center;">+|<p style="text-align: center;">+|
-|FR 1.6 При успішної аутентифікації система повинна оповістити користувача.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
+|FR 1.1 Реєстрація клієнта здійснюється через панель сайту призначену для клієнтів.|<p style="text-align: center;">+|<p style="text-align: center;">+|<p style="text-align: center;">+|
+|FR 1.2 Потрібен валідний email, номер телефону та обрані користувачем ім`я і пароль.|<p style="text-align: center;">+|<p style="text-align: center;">-|<p style="text-align: center;">-|
+|FR 1.3 Користувач не може ввести пароль менше 6 символів.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">+|
+|FR 1.4 Всі поля не повинні бути порожніми.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">+|
+|FR 1.5 При успішної аутентифікації система повинна оповістити користувача.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 2.1 Зареєструвати працівника (ролі: Працівник, Керуючий, Адміністратор) може тільки авторизований користувач з роллю Менеджер, або Адміністратор.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 2.2 Реєстрація працівника здійснюється через панель управління персоналом.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
-|FR 2.3 Потрібні: Дійсний e-mail, номер телефону, ПІБ працівника, дата народження, посада.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
+|FR 2.3 Потрібні: Дійсний e-mail, номер телефону, ПІБ працівника, дата народження, посада.|<p style="text-align: center;">+|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 2.4 Працівник повинен мати унікальний е-mail в системі.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 2.5 Всі поля не повинні бути порожніми.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 2.6 При успішній реєстрації на e-mail працівника буде відправлено повідомлення з підтвердженням реєстрації і його паролем.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 3.1 Потрібен вже зареєстрований користувач.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
-|FR 3.2 Аутентифікація Клієнта здійснюється через панель сайту призначену для клієнтів.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
+|FR 3.2 Аутентифікація клієнта здійснюється через панель сайту призначену для клієнтів.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 3.3 Клієнт повинен ввести правильне ім`я користувача.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 3.4 Клієнт повинен ввести вірний пароль.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
 |FR 4.1 Потрібен вже зареєстрований Працівник.|<p style="text-align: center;">-|<p style="text-align: center;">-|<p style="text-align: center;">-|
